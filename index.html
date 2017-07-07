@@ -12,9 +12,57 @@
       <div class="jumbotron">
         <h1><strong>Survey time!</strong></h1>
       </div>
-      <div class="form">
-        
+      <div class="well">
+        <form id="thisForm">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="email">your email address</label>
+            <input id="email" class="form-control" type="text">
+          </div>
+          <h4>Select your product</h4>
+          <select class="form-control" id="product">
+            <option>rockinghorse</option>
+            <option>rockingchair</option>
+            <option>rockingbed</option>
+            <option>rockinghouse</option>
+            <option>coffee</option>
+          </select>
+          <div class="well">
+            <h3>how big is it?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="sm" checked>
+                normal
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="md">
+                pretty big
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="lg">
+                yuge!!
+              </label>
+            </div>
+          </div>
+          <div class="form-group>">
+            <label for="born">Date of purchase</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="color">What color is your product?</label>
+            <input id='color' class="form-control" type="color">
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
       </div>
+
     </div>
   </body>
 </html>
