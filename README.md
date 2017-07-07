@@ -6,7 +6,7 @@
 
 ## Description
 
-_Track-Suggester is a webpage that asks future students a series of questions about themselves and provides a track suggestion in the technology field based on their answers. _
+_Track-Suggester is a webpage that asks future students a series of questions about themselves and provides a track suggestion in the technology field based on their answers._
 
 ## Setup/Installation Requirements
 
