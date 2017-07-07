@@ -11,8 +11,8 @@ _Track-Suggester is a webpage that asks future students a series of questions ab
 ## Setup/Installation Requirements
 
 * _Clone this repository_
-* _https://github.com/7tacocat7/track-suggester.git _
-* _Locate Track-Suggester directory & html file named index.html
+* https://github.com/7tacocat7/track-suggester.git
+* _Locate Track-Suggester directory & html file named index.html_
 * _open HTML file in any web browser_
 
 
