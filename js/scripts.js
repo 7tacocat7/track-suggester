@@ -23,11 +23,19 @@ $(document).ready(function(){
     $("#acolor").text(myColor);
 
     $(".form2").show();
-    $(".formjava").show();
-    $(".formCsharp").show();
-    $(".formCSSdesign").show();
-    $(".formRuby").show();
-    $(".formPhp").show();
+    $(".form3").show(
+
+    );
+    $(".form4").show(
+
+    );
+    $(".form5").show(
+
+    );
+    $(".form6").show(
+
+    );
+    $(".form7").show();
 
 
     $(".form1").hide();
