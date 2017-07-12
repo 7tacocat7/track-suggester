@@ -23,6 +23,7 @@ $(document).ready(function(){
     $("#acolor").text(myColor);
 
     $(".form2").show();
+    $(".form3").show();
     $(".form1").hide();
 
     event.preventDefault();
