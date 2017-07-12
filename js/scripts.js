@@ -23,7 +23,13 @@ $(document).ready(function(){
     $("#acolor").text(myColor);
 
     $(".form2").show();
-    $(".form3").show();
+    $(".formjava").show();
+    $(".formCsharp").show();
+    $(".formCSSdesign").show();
+    $(".formRuby").show();
+    $(".formPhp").show();
+
+
     $(".form1").hide();
 
     event.preventDefault();
