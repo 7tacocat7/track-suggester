@@ -56,7 +56,17 @@ $(document).ready(function(){
         $(".form3").show();
       if(myQuestion3 === "Business software")
         $(".form4").show();
-  // $(".form3").show();
+      if(myQuestion3 === "Android applications")
+        $(".form5").show();
+      if(myQuestion3 === "I want to work on iOS apps")
+        $(".form5").show();
+      if(myQuestion3 === "Business software")
+        $(".form6").show();
+      if(myQuestion3 === "Android applications")
+        $(".form7").show();
+      if(myQuestion3 === "I want to work on iOS apps")
+        $(".form7").show();
+    // $(".form3").show();
     // $(".form4").show();
     // $(".form5").show();
     // $(".form6").show();
