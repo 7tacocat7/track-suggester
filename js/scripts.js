@@ -23,14 +23,25 @@ $(document).ready(function(){
     $("#acolor").text(myColor);
 
     $(".form2").show();
-
+// Question 1 branch logic
       if(myQuestion1 === "Webpage design")
         $(".form3").show();
       if(myQuestion1 === "Webpage design")
         $(".form5").show();
       if(myQuestion1 === "Webpage design")
         $(".form7").show();
+      if(myQuestion1 === "how it works")
+        $(".form7").show();
+//Question 2 branch logic
+      if(myQuestion2 === "Big busines")
+        $(".form3").show();
+      if(myQuestion2 === "The smaller guy")
+        $(".form3").show();
+      if(myQuestion2 === "Big busines")
+        $(".form4").show();
+      if(myQuestion2 === "")
 
+      if(myQuestion2 === "")
     // $(".form3").show();
     // $(".form4").show();
     // $(".form5").show();
