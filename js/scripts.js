@@ -23,7 +23,7 @@ $(document).ready(function(){
     $("#acolor").text(myColor);
 
     $(".form2").show();
-// Question 1 branch logic
+// Question 1 branch
       if(myQuestion1 === "Webpage design")
         $(".form3").show();
       if(myQuestion1 === "Webpage design")
@@ -32,7 +32,7 @@ $(document).ready(function(){
         $(".form7").show();
       if(myQuestion1 === "how it works")
         $(".form7").show();
-//Question 2 branch logic
+//Question 2 branch
       if(myQuestion2 === "Big busines")
         $(".form3").show();
       if(myQuestion2 === "The smaller guy")
@@ -49,7 +49,7 @@ $(document).ready(function(){
         $(".form7").show();
       if(myQuestion2 === "I want to freelance")
         $(".form7").show();
-//Question 3 branch logic
+//Question 3 branch
       if(myQuestion3 === "Android applications")
         $(".form3").show();
       if(myQuestion3 === "Business software")
@@ -65,6 +65,24 @@ $(document).ready(function(){
       if(myQuestion3 === "Android applications")
         $(".form7").show();
       if(myQuestion3 === "I want to work on iOS apps")
+        $(".form7").show();
+//Question 4 branch
+      if(myQuestion4 === "No")
+        $(".form3").show();
+      if(myQuestion4 === "No")
+        $(".form4").show();
+      if(myQuestion4 === "Yes")
+        $(".form6").show();
+      if(myQuestion4 === "No")
+        $(".form7").show();
+//Question 5 branch
+      if(myQuestion4 === "No")
+        $(".form3").show();
+      if(myQuestion4 === "Maybe")
+        $(".form4").show();
+      if(myQuestion4 === "Yes")
+        $(".form6").show();
+      if(myQuestion4 === "Yes")
         $(".form7").show();
     // $(".form3").show();
     // $(".form4").show();
