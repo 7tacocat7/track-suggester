@@ -49,6 +49,13 @@ $(document).ready(function(){
         $(".form7").show();
       if(myQuestion2 === "I want to freelance")
         $(".form7").show();
+//Question 3 branch logic
+      if(myQuestion3 === "Android applications")
+        $(".form3").show();
+      if(myQuestion3 === "Business software")
+        $(".form3").show();
+      if(myQuestion3 === "Business software")
+        $(".form4").show();
   // $(".form3").show();
     // $(".form4").show();
     // $(".form5").show();
