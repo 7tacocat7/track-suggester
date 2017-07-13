@@ -1,8 +1,12 @@
+.well{
+  background-color: gray;
+}
 .form2 {
   display:none;
 }
 .form3 {
   display:none;
+
 }
 .form4 {
   display:none;
@@ -12,7 +16,13 @@
 }
 .form6 {
   display:none;
+  color = .text(myColor);
 }
+.form7 {
+  display:none;
+}
+
+
 .form2 {
   display:none;
 }

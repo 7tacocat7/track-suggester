@@ -23,19 +23,19 @@ $(document).ready(function(){
     $("#acolor").text(myColor);
 
     $(".form2").show();
-    $(".form3").show(
 
-    );
-    $(".form4").show(
+      if(myQuestion1 === "Webpage design")
+        $(".form3").show();
+      if(myQuestion1 === "Webpage design")
+        $(".form5").show();
+      if(myQuestion1 === "Webpage design")
+        $(".form7").show();
 
-    );
-    $(".form5").show(
-
-    );
-    $(".form6").show(
-
-    );
-    $(".form7").show();
+    // $(".form3").show();
+    // $(".form4").show();
+    // $(".form5").show();
+    // $(".form6").show();
+    // $(".form7").show();
 
 
     $(".form1").hide();
