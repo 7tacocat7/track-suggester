@@ -39,10 +39,17 @@ $(document).ready(function(){
         $(".form3").show();
       if(myQuestion2 === "Big busines")
         $(".form4").show();
-      if(myQuestion2 === "")
-
-      if(myQuestion2 === "")
-    // $(".form3").show();
+      if(myQuestion2 === "I want to freelance")
+        $(".form5").show();
+      if(myQuestion2 === "Big busines")
+        $(".form6").show();
+      if(myQuestion2 === "The smaller guy")
+        $(".form6").show();
+      if(myQuestion2 === "The smaller guy")
+        $(".form7").show();
+      if(myQuestion2 === "I want to freelance")
+        $(".form7").show();
+  // $(".form3").show();
     // $(".form4").show();
     // $(".form5").show();
     // $(".form6").show();
