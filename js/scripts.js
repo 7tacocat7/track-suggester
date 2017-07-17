@@ -24,71 +24,71 @@ $(document).ready(function(){
 
     $(".form2").show();
 // Question 1 branch
-      if(myQuestion1 === "Webpage design")
-        $(".form3").show();
-      if(myQuestion1 === "Webpage design")
-        $(".form5").show();
-      if(myQuestion1 === "Webpage design")
-        $(".form7").show();
-      if(myQuestion1 === "how it works")
-        $(".form7").show();
-//Question 2 branch
-      if(myQuestion2 === "Big busines")
-        $(".form3").show();
-      if(myQuestion2 === "The smaller guy")
-        $(".form3").show();
-      if(myQuestion2 === "Big busines")
-        $(".form4").show();
-      if(myQuestion2 === "I want to freelance")
-        $(".form5").show();
-      if(myQuestion2 === "Big busines")
-        $(".form6").show();
-      if(myQuestion2 === "The smaller guy")
-        $(".form6").show();
-      if(myQuestion2 === "The smaller guy")
-        $(".form7").show();
-      if(myQuestion2 === "I want to freelance")
-        $(".form7").show();
-//Question 3 branch
-      if(myQuestion3 === "Android applications")
-        $(".form3").show();
-      if(myQuestion3 === "Business software")
-        $(".form3").show();
-      if(myQuestion3 === "Business software")
-        $(".form4").show();
-      if(myQuestion3 === "Android applications")
-        $(".form5").show();
-      if(myQuestion3 === "I want to work on iOS apps")
-        $(".form5").show();
-      if(myQuestion3 === "Business software")
-        $(".form6").show();
-      if(myQuestion3 === "Android applications")
-        $(".form7").show();
-      if(myQuestion3 === "I want to work on iOS apps")
-        $(".form7").show();
-//Question 4 branch
-      if(myQuestion4 === "No")
-        $(".form3").show();
-      if(myQuestion4 === "No")
-        $(".form4").show();
-      if(myQuestion4 === "Yes")
-        $(".form6").show();
-      if(myQuestion4 === "No")
-        $(".form7").show();
-//Question 5 branch
-      if(myQuestion4 === "No")
-        $(".form3").show();
-      if(myQuestion4 === "Maybe")
-        $(".form4").show();
-      if(myQuestion4 === "Yes")
-        $(".form6").show();
-      if(myQuestion4 === "Yes")
-        $(".form7").show();
-    // $(".form3").show();
-    // $(".form4").show();
-    // $(".form5").show();
-    // $(".form6").show();
-    // $(".form7").show();
+    if(myQuestion1 === "Webpage design")
+      $("#java").show();
+    if(myQuestion1 === "Webpage design")
+      $("#cssDesign").show();
+    if(myQuestion1 === "Webpage design")
+      $("#ruby").show();
+    if(myQuestion1 === "how it works")
+      $("#ruby").show();
+  //Question 2 branch
+    if(myQuestion2 === "Big busines")
+      $("#java").show();
+    if(myQuestion2 === "The smaller guy")
+      $("#java").show();
+    if(myQuestion2 === "Big busines")
+      $("#cSharp").show();
+    if(myQuestion2 === "I want to freelance")
+      $("#cssDesign").show();
+    if(myQuestion2 === "Big busines")
+      $("#php").show();
+    if(myQuestion2 === "The smaller guy")
+      $("#php").show();
+    if(myQuestion2 === "The smaller guy")
+      $("#ruby").show();
+    if(myQuestion2 === "I want to freelance")
+      $("#ruby").show();
+  //Question 3 branch
+    if(myQuestion3 === "Android applications")
+      $("#java").show();
+    if(myQuestion3 === "Business software")
+      $("#java").show();
+    if(myQuestion3 === "Business software")
+      $("#cSharp").show();
+    if(myQuestion3 === "Android applications")
+      $("#cssDesign").show();
+    if(myQuestion3 === "I want to work on iOS apps")
+      $("#cssDesign").show();
+    if(myQuestion3 === "Business software")
+      $("#php").show();
+    if(myQuestion3 === "Android applications")
+      $("#ruby").show();
+    if(myQuestion3 === "I want to work on iOS apps")
+      $("#ruby").show();
+  //Question 4 branch
+    if(myQuestion4 === "No")
+      $("#java").show();
+    if(myQuestion4 === "No")
+      $("#cSharp").show();
+    if(myQuestion4 === "Yes")
+      $("#php").show();
+    if(myQuestion4 === "No")
+      $("#ruby").show();
+  //Question 5 branch
+    if(myQuestion4 === "No")
+      $("#java").show();
+    if(myQuestion4 === "Maybe")
+      $("#cSharp").show();
+    if(myQuestion4 === "Yes")
+      $("#php").show();
+    if(myQuestion4 === "Yes")
+      $("#ruby").show();
+    // $("#java").show();
+    // $("#cSharp").show();
+    // $("#cssDesign").show();
+    // $("#php").show();
+    // $("#ruby").show();
 
 
     $(".form1").hide();

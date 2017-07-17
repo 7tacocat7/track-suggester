@@ -1,28 +1,42 @@
-.well{
+h1 {
+  background-color: lightblue;
+  border-radius: 5%;
+  border-style: ridge;
+}
+body {
   background-color: gray;
 }
+.jumbotron{
+  background-color: teal;
+}
+p{
+  padding: 3px;
+  margin: 2px;
+  background-color: lightyellow;
+  border: double;
+  border-color: red;
+}
+.well{
+  background-color: lightblue;
+  border-radius: 3%;
+  border-style: double;
+  border-color: black;
+}
 .form2 {
   display:none;
 }
-.form3 {
-  display:none;
-
+#java {
+  display: none;
 }
-.form4 {
-  display:none;
+#cSharp {
+  display: none;
 }
-.form5 {
-  display:none;
+#cssDesign {
+  display: none;
 }
-.form6 {
-  display:none;
-  color = .text(myColor);
+#php {
+  display: none;
 }
-.form7 {
-  display:none;
-}
-
-
-.form2 {
-  display:none;
+#ruby {
+  display: none;
 }
