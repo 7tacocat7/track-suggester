@@ -9,7 +9,9 @@ body {
 
 }
 .jumbotron{
-  background-color: teal;
+  background-image: url("img/jumbo.jpeg");
+  opacity: 0.9;
+
 }
 p{
   padding: 3px;
