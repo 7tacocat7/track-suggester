@@ -11,14 +11,19 @@ body {
 .jumbotron{
   background-image: url("img/jumbo.jpeg");
   opacity: 0.9;
-
 }
-p{
+}
+.end{
   padding: 3px;
   margin: 2px;
   background-color: lightyellow;
   border: double;
   border-color: red;
+}
+.sidebar {
+  width: 30%;
+  float:left;
+  background-image: url(img/sidebar.jpeg);
 }
 .well{
   background-color: lightblue;
@@ -26,8 +31,12 @@ p{
   border-style: double;
   border-color: black;
 }
+.form1{
+  font-family: cursive;
+}
 .form2 {
   display:none;
+  font-weight: bold;
 }
 #java {
   display: none;
